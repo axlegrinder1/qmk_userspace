@@ -1,0 +1,6 @@
+#!/bin/sh
+# Regenerate the README keymap diagram whenever keymap.c is part of the commit
+if git diff --cached --name-only | grep -q 'keymaps/acooke/keymap\.c$'; then
+    python tools/keymap_svg.py || exit 1
+    git add keyboards/gmmk/gmmk2/p96/iso/keymaps/acooke/keymap.svg
+fi

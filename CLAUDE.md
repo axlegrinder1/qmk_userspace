@@ -6,6 +6,7 @@ QMK userspace for one keyboard: Glorious GMMK V2 96% ISO, keymap `acooke`.
 - Diagram shown in README: `keyboards/gmmk/gmmk2/p96/iso/keymaps/acooke/keymap.svg` (generated, never edit by hand)
 - Diagram generator: `tools/keymap_svg.py`
 - Firmware is built by GitHub Actions on every push and published to the `latest` release.
+- A pre-commit hook (`.githooks/pre-commit`) regenerates `keymap.svg` whenever `keymap.c` is committed. In a fresh clone, enable it once with `git config core.hooksPath .githooks`. Check it is enabled with `git config core.hooksPath` (should print `.githooks`).
 
 ## Rule: keymap changes must update the docs in the same commit
 
@@ -23,7 +24,7 @@ Edit `keymap.c`. Keep these constraints:
 
 ### Step 2: Regenerate the diagram
 
-From the repo root run:
+The pre-commit hook does this automatically, but run it yourself first so any error shows up before you commit. From the repo root run:
 
 ```
 python tools/keymap_svg.py
