@@ -1,4 +1,69 @@
-# QMK Userspace
+# GMMK V2 96 ISO keymap
+
+Custom QMK keymap (`acooke`) for the Glorious GMMK V2 96% ISO. Every push builds the firmware; download the latest `.bin` from [Releases](../../releases/tag/latest).
+
+Hold **Fn** (right of AltGr) for everything coloured below. While Fn is held, the keyboard lights the same map: unused keys go dark and toggles show their state.
+
+![Fn layer map](keyboards/gmmk/gmmk2/p96/iso/keymaps/acooke/keymap.svg)
+
+## Fn shortcuts
+
+### Lighting
+
+| Keys | Does |
+|---|---|
+| Fn + 1 / 2 / 3 | Preset: all red / all white / rainbow (Cycle Left/Right). Keeps brightness. |
+| Fn + Esc | Lights on / off |
+| Fn + ← / → | Previous / next effect |
+| Fn + ↑ / ↓ | Brighter / dimmer |
+| Fn + S / D | Hue up / down |
+| Fn + Z / X | Saturation up / down |
+| Fn + C / V | Effect slower / faster |
+
+### Media and apps
+
+| Keys | Does |
+|---|---|
+| Fn + F1–F4 | This PC, browser home, calculator, media player |
+| Fn + F5 / F6 / F7 | Previous track / play-pause / next track |
+| Fn + F8 | Stop |
+| Fn + F9 | Mute |
+| Fn + F10 / F11 | Volume down / up |
+
+### System
+
+| Keys | Does |
+|---|---|
+| Fn + Win | Windows-key lock, for games |
+| Fn + N | NKRO on / off (saved across reboots) |
+| Fn + PgDn | Bootloader, for flashing firmware |
+
+## What the lights mean while Fn is held
+
+| Colour | Meaning |
+|---|---|
+| Your current effect | Lighting controls, so changes show as you make them |
+| Red / white / rainbow | The three presets on 1, 2, 3 |
+| Cyan | Media and app keys |
+| Green | NKRO is on, or the Windows key works |
+| Red (solid) | NKRO is off |
+| Red (blinking) | Windows key is locked |
+| Magenta | Bootloader |
+| White | The Fn key, and anything else added to the Fn layer in VIA |
+
+Nothing is drawn over the lighting unless Fn is held. With the lights off there is nothing to colour.
+
+## Notes
+
+- Three layers: base, Fn and an empty layer 2. Five do not fit in the keyboard's 1 KB of settings storage. Put `MO(2)` on a spare key in VIA to use layer 2.
+- Flashing a new build resets VIA changes, so save the layout in VIA first.
+- To reach the bootloader without the keymap: hold Esc while plugging in (also resets settings), or hold the reset pin under the spacebar.
+- In VIA the preset keys show as custom keycodes `0x7E40`–`0x7E42`.
+- Symbol legends in the diagram are UK ISO; the OS keyboard language decides what they type.
+
+---
+
+## About this repo (QMK Userspace)
 
 This is a template repository which allows for an external set of QMK keymaps to be defined and compiled. This is useful for users who want to maintain their own keymaps without having to fork the [main QMK repository](https://github.com/qmk/qmk_firmware). You must still fork the main QMK repository if writing firmware for a *new* keyboard.
 

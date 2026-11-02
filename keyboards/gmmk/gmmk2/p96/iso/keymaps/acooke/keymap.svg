@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1068 366" width="1068" height="366" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><linearGradient id="rb" x1="0" x2="1">
+<stop offset="0" stop-color="#e5484d"/><stop offset=".25" stop-color="#f5a524"/><stop offset=".5" stop-color="#30a46c"/><stop offset=".75" stop-color="#3e8ef7"/><stop offset="1" stop-color="#8e4ec6"/></linearGradient></defs>
+<style>
+.plate{fill:#2a2e34} .cap{fill:#f7f8f9;stroke:#c9ced4} .dim{opacity:.45} .base{fill:#1b1f24;font-size:11px}
+.fn{font-size:10.5px;font-weight:700} .fnkey{fill:#1b1f24} .fnkey-t{fill:#f7f8f9;font-size:11px;font-weight:700}
+.light{fill:#b86e00} .media{fill:#0b7f86} .toggle{fill:#2f8a3c} .boot{fill:#b0359a} .red{fill:#c8252c} .white{fill:#5d6670} .rainbow{fill:#5b4bd6}
+.bar-light{fill:#f0a531} .bar-media{fill:#3cc4cb} .bar-toggle{fill:#5fcf6e} .bar-boot{fill:#e57ad3} .bar-red{fill:#e5484d} .bar-white{fill:#c9ced4} .bar-rainbow{fill:url(#rb)}
+@media (prefers-color-scheme: dark) {
+ .plate{fill:#0b0d10} .cap{fill:#2b3038;stroke:#1c2026} .base{fill:#e6e9ed} .fnkey{fill:#e6e9ed} .fnkey-t{fill:#15181c}
+ .light{fill:#f0a531} .media{fill:#3cc4cb} .toggle{fill:#5fcf6e} .boot{fill:#e57ad3} .red{fill:#ff6b6f} .white{fill:#e6e9ed} .rainbow{fill:#a99bff}
+}
+</style>
+<rect class="plate" x="0" y="0" width="1068" height="366" rx="14"/>
+<g><rect class="cap" x="16" y="16" width="50" height="50" rx="5"/><text class="base" x="22" y="32">Esc</text>
+<rect class="bar-light" x="16" y="62" width="50" height="4" rx="2"/><text class="fn light" x="22" y="56">Lights</text>
+</g>
+<g><rect class="cap" x="83.5" y="16" width="50" height="50" rx="5"/><text class="base" x="89.5" y="32">F1</text>
+<rect class="bar-media" x="83.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="89.5" y="56">This PC</text>
+</g>
+<g><rect class="cap" x="137.5" y="16" width="50" height="50" rx="5"/><text class="base" x="143.5" y="32">F2</text>
+<rect class="bar-media" x="137.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="143.5" y="56">Browser</text>
+</g>
+<g><rect class="cap" x="191.5" y="16" width="50" height="50" rx="5"/><text class="base" x="197.5" y="32">F3</text>
+<rect class="bar-media" x="191.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="197.5" y="56">Calc</text>
+</g>
+<g><rect class="cap" x="245.5" y="16" width="50" height="50" rx="5"/><text class="base" x="251.5" y="32">F4</text>
+<rect class="bar-media" x="245.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="251.5" y="56">Player</text>
+</g>
+<g><rect class="cap" x="313.0" y="16" width="50" height="50" rx="5"/><text class="base" x="319.0" y="32">F5</text>
+<rect class="bar-media" x="313.0" y="62" width="50" height="4" rx="2"/><text class="fn media" x="319.0" y="56">Prev</text>
+</g>
+<g><rect class="cap" x="367.0" y="16" width="50" height="50" rx="5"/><text class="base" x="373.0" y="32">F6</text>
+<rect class="bar-media" x="367.0" y="62" width="50" height="4" rx="2"/><text class="fn media" x="373.0" y="56">Play</text>
+</g>
+<g><rect class="cap" x="421.0" y="16" width="50" height="50" rx="5"/><text class="base" x="427.0" y="32">F7</text>
+<rect class="bar-media" x="421.0" y="62" width="50" height="4" rx="2"/><text class="fn media" x="427.0" y="56">Next</text>
+</g>
+<g><rect class="cap" x="475.0" y="16" width="50" height="50" rx="5"/><text class="base" x="481.0" y="32">F8</text>
+<rect class="bar-media" x="475.0" y="62" width="50" height="4" rx="2"/><text class="fn media" x="481.0" y="56">Stop</text>
+</g>
+<g><rect class="cap" x="542.5" y="16" width="50" height="50" rx="5"/><text class="base" x="548.5" y="32">F9</text>
+<rect class="bar-media" x="542.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="548.5" y="56">Mute</text>
+</g>
+<g><rect class="cap" x="596.5" y="16" width="50" height="50" rx="5"/><text class="base" x="602.5" y="32">F10</text>
+<rect class="bar-media" x="596.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="602.5" y="56">Vol −</text>
+</g>
+<g><rect class="cap" x="650.5" y="16" width="50" height="50" rx="5"/><text class="base" x="656.5" y="32">F11</text>
+<rect class="bar-media" x="650.5" y="62" width="50" height="4" rx="2"/><text class="fn media" x="656.5" y="56">Vol +</text>
+</g>
+<g class="dim"><rect class="cap" x="704.5" y="16" width="50" height="50" rx="5"/><text class="base" x="710.5" y="32">F12</text>
+</g>
+<g class="dim"><rect class="cap" x="772" y="16" width="50" height="50" rx="5"/><text class="base" x="778" y="32">PrtSc</text>
+</g>
+<g class="dim"><rect class="cap" x="839.5" y="16" width="50" height="50" rx="5"/><text class="base" x="845.5" y="32">Del</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="16" width="50" height="50" rx="5"/><text class="base" x="899.5" y="32">Ins</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="16" width="50" height="50" rx="5"/><text class="base" x="953.5" y="32">PgUp</text>
+</g>
+<g><rect class="cap" x="1001.5" y="16" width="50" height="50" rx="5"/><text class="base" x="1007.5" y="32">PgDn</text>
+<rect class="bar-boot" x="1001.5" y="62" width="50" height="4" rx="2"/><text class="fn boot" x="1007.5" y="56">Boot</text>
+</g>
+<g class="dim"><rect class="cap" x="16" y="76.75" width="50" height="50" rx="5"/><text class="base" x="22" y="92.75">`</text>
+</g>
+<g><rect class="cap" x="70" y="76.75" width="50" height="50" rx="5"/><text class="base" x="76" y="92.75">1</text>
+<rect class="bar-red" x="70" y="122.75" width="50" height="4" rx="2"/><text class="fn red" x="76" y="116.75">Red</text>
+</g>
+<g><rect class="cap" x="124" y="76.75" width="50" height="50" rx="5"/><text class="base" x="130" y="92.75">2</text>
+<rect class="bar-white" x="124" y="122.75" width="50" height="4" rx="2"/><text class="fn white" x="130" y="116.75">White</text>
+</g>
+<g><rect class="cap" x="178" y="76.75" width="50" height="50" rx="5"/><text class="base" x="184" y="92.75">3</text>
+<rect class="bar-rainbow" x="178" y="122.75" width="50" height="4" rx="2"/><text class="fn rainbow" x="184" y="116.75">Rainbow</text>
+</g>
+<g class="dim"><rect class="cap" x="232" y="76.75" width="50" height="50" rx="5"/><text class="base" x="238" y="92.75">4</text>
+</g>
+<g class="dim"><rect class="cap" x="286" y="76.75" width="50" height="50" rx="5"/><text class="base" x="292" y="92.75">5</text>
+</g>
+<g class="dim"><rect class="cap" x="340" y="76.75" width="50" height="50" rx="5"/><text class="base" x="346" y="92.75">6</text>
+</g>
+<g class="dim"><rect class="cap" x="394" y="76.75" width="50" height="50" rx="5"/><text class="base" x="400" y="92.75">7</text>
+</g>
+<g class="dim"><rect class="cap" x="448" y="76.75" width="50" height="50" rx="5"/><text class="base" x="454" y="92.75">8</text>
+</g>
+<g class="dim"><rect class="cap" x="502" y="76.75" width="50" height="50" rx="5"/><text class="base" x="508" y="92.75">9</text>
+</g>
+<g class="dim"><rect class="cap" x="556" y="76.75" width="50" height="50" rx="5"/><text class="base" x="562" y="92.75">0</text>
+</g>
+<g class="dim"><rect class="cap" x="610" y="76.75" width="50" height="50" rx="5"/><text class="base" x="616" y="92.75">-</text>
+</g>
+<g class="dim"><rect class="cap" x="664" y="76.75" width="50" height="50" rx="5"/><text class="base" x="670" y="92.75">=</text>
+</g>
+<g class="dim"><rect class="cap" x="718" y="76.75" width="104" height="50" rx="5"/><text class="base" x="724" y="92.75">Backspace</text>
+</g>
+<g class="dim"><rect class="cap" x="839.5" y="76.75" width="50" height="50" rx="5"/><text class="base" x="845.5" y="92.75">Num</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="76.75" width="50" height="50" rx="5"/><text class="base" x="899.5" y="92.75">/</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="76.75" width="50" height="50" rx="5"/><text class="base" x="953.5" y="92.75">*</text>
+</g>
+<g class="dim"><rect class="cap" x="1001.5" y="76.75" width="50" height="50" rx="5"/><text class="base" x="1007.5" y="92.75">−</text>
+</g>
+<g class="dim"><rect class="cap" x="16" y="130.75" width="77.0" height="50" rx="5"/><text class="base" x="22" y="146.75">Tab</text>
+</g>
+<g class="dim"><rect class="cap" x="97.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="103.0" y="146.75">Q</text>
+</g>
+<g class="dim"><rect class="cap" x="151.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="157.0" y="146.75">W</text>
+</g>
+<g class="dim"><rect class="cap" x="205.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="211.0" y="146.75">E</text>
+</g>
+<g class="dim"><rect class="cap" x="259.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="265.0" y="146.75">R</text>
+</g>
+<g class="dim"><rect class="cap" x="313.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="319.0" y="146.75">T</text>
+</g>
+<g class="dim"><rect class="cap" x="367.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="373.0" y="146.75">Y</text>
+</g>
+<g class="dim"><rect class="cap" x="421.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="427.0" y="146.75">U</text>
+</g>
+<g class="dim"><rect class="cap" x="475.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="481.0" y="146.75">I</text>
+</g>
+<g class="dim"><rect class="cap" x="529.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="535.0" y="146.75">O</text>
+</g>
+<g class="dim"><rect class="cap" x="583.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="589.0" y="146.75">P</text>
+</g>
+<g class="dim"><rect class="cap" x="637.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="643.0" y="146.75">[</text>
+</g>
+<g class="dim"><rect class="cap" x="691.0" y="130.75" width="50" height="50" rx="5"/><text class="base" x="697.0" y="146.75">]</text>
+</g>
+<g class="dim"><rect class="cap" x="758.5" y="130.75" width="63.5" height="104" rx="5"/><text class="base" x="764.5" y="146.75">Enter</text>
+</g>
+<g class="dim"><rect class="cap" x="839.5" y="130.75" width="50" height="50" rx="5"/><text class="base" x="845.5" y="146.75">7</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="130.75" width="50" height="50" rx="5"/><text class="base" x="899.5" y="146.75">8</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="130.75" width="50" height="50" rx="5"/><text class="base" x="953.5" y="146.75">9</text>
+</g>
+<g class="dim"><rect class="cap" x="1001.5" y="130.75" width="50" height="104" rx="5"/><text class="base" x="1007.5" y="146.75">+</text>
+</g>
+<g class="dim"><rect class="cap" x="16" y="184.75" width="90.5" height="50" rx="5"/><text class="base" x="22" y="200.75">Caps</text>
+</g>
+<g class="dim"><rect class="cap" x="110.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="116.5" y="200.75">A</text>
+</g>
+<g><rect class="cap" x="164.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="170.5" y="200.75">S</text>
+<rect class="bar-light" x="164.5" y="230.75" width="50" height="4" rx="2"/><text class="fn light" x="170.5" y="224.75">Hue +</text>
+</g>
+<g><rect class="cap" x="218.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="224.5" y="200.75">D</text>
+<rect class="bar-light" x="218.5" y="230.75" width="50" height="4" rx="2"/><text class="fn light" x="224.5" y="224.75">Hue −</text>
+</g>
+<g class="dim"><rect class="cap" x="272.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="278.5" y="200.75">F</text>
+</g>
+<g class="dim"><rect class="cap" x="326.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="332.5" y="200.75">G</text>
+</g>
+<g class="dim"><rect class="cap" x="380.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="386.5" y="200.75">H</text>
+</g>
+<g class="dim"><rect class="cap" x="434.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="440.5" y="200.75">J</text>
+</g>
+<g class="dim"><rect class="cap" x="488.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="494.5" y="200.75">K</text>
+</g>
+<g class="dim"><rect class="cap" x="542.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="548.5" y="200.75">L</text>
+</g>
+<g class="dim"><rect class="cap" x="596.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="602.5" y="200.75">;</text>
+</g>
+<g class="dim"><rect class="cap" x="650.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="656.5" y="200.75">&#x27;</text>
+</g>
+<g class="dim"><rect class="cap" x="704.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="710.5" y="200.75">#</text>
+</g>
+<g class="dim"><rect class="cap" x="839.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="845.5" y="200.75">4</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="899.5" y="200.75">5</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="184.75" width="50" height="50" rx="5"/><text class="base" x="953.5" y="200.75">6</text>
+</g>
+<g class="dim"><rect class="cap" x="16" y="238.75" width="63.5" height="50" rx="5"/><text class="base" x="22" y="254.75">Shift</text>
+</g>
+<g class="dim"><rect class="cap" x="83.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="89.5" y="254.75">\</text>
+</g>
+<g><rect class="cap" x="137.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="143.5" y="254.75">Z</text>
+<rect class="bar-light" x="137.5" y="284.75" width="50" height="4" rx="2"/><text class="fn light" x="143.5" y="278.75">Sat +</text>
+</g>
+<g><rect class="cap" x="191.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="197.5" y="254.75">X</text>
+<rect class="bar-light" x="191.5" y="284.75" width="50" height="4" rx="2"/><text class="fn light" x="197.5" y="278.75">Sat −</text>
+</g>
+<g><rect class="cap" x="245.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="251.5" y="254.75">C</text>
+<rect class="bar-light" x="245.5" y="284.75" width="50" height="4" rx="2"/><text class="fn light" x="251.5" y="278.75">Speed −</text>
+</g>
+<g><rect class="cap" x="299.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="305.5" y="254.75">V</text>
+<rect class="bar-light" x="299.5" y="284.75" width="50" height="4" rx="2"/><text class="fn light" x="305.5" y="278.75">Speed +</text>
+</g>
+<g class="dim"><rect class="cap" x="353.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="359.5" y="254.75">B</text>
+</g>
+<g><rect class="cap" x="407.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="413.5" y="254.75">N</text>
+<rect class="bar-toggle" x="407.5" y="284.75" width="50" height="4" rx="2"/><text class="fn toggle" x="413.5" y="278.75">NKRO</text>
+</g>
+<g class="dim"><rect class="cap" x="461.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="467.5" y="254.75">M</text>
+</g>
+<g class="dim"><rect class="cap" x="515.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="521.5" y="254.75">,</text>
+</g>
+<g class="dim"><rect class="cap" x="569.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="575.5" y="254.75">.</text>
+</g>
+<g class="dim"><rect class="cap" x="623.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="629.5" y="254.75">/</text>
+</g>
+<g class="dim"><rect class="cap" x="677.5" y="238.75" width="90.5" height="50" rx="5"/><text class="base" x="683.5" y="254.75">Shift</text>
+</g>
+<g><rect class="cap" x="778.75" y="245.5" width="50" height="50" rx="5"/><text class="base" x="784.75" y="261.5">↑</text>
+<rect class="bar-light" x="778.75" y="291.5" width="50" height="4" rx="2"/><text class="fn light" x="784.75" y="285.5">Bright +</text>
+</g>
+<g class="dim"><rect class="cap" x="839.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="845.5" y="254.75">1</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="899.5" y="254.75">2</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="238.75" width="50" height="50" rx="5"/><text class="base" x="953.5" y="254.75">3</text>
+</g>
+<g class="dim"><rect class="cap" x="1001.5" y="238.75" width="50" height="104" rx="5"/><text class="base" x="1007.5" y="254.75">Enter</text>
+</g>
+<g class="dim"><rect class="cap" x="16" y="292.75" width="63.5" height="50" rx="5"/><text class="base" x="22" y="308.75">Ctrl</text>
+</g>
+<g><rect class="cap" x="83.5" y="292.75" width="63.5" height="50" rx="5"/><text class="base" x="89.5" y="308.75">Win</text>
+<rect class="bar-toggle" x="83.5" y="338.75" width="63.5" height="4" rx="2"/><text class="fn toggle" x="89.5" y="332.75">Win lock</text>
+</g>
+<g class="dim"><rect class="cap" x="151.0" y="292.75" width="63.5" height="50" rx="5"/><text class="base" x="157.0" y="308.75">Alt</text>
+</g>
+<g class="dim"><rect class="cap" x="218.5" y="292.75" width="333.5" height="50" rx="5"/><text class="base" x="224.5" y="308.75"></text>
+</g>
+<g class="dim"><rect class="cap" x="556" y="292.75" width="50" height="50" rx="5"/><text class="base" x="562" y="308.75">AltGr</text>
+</g>
+<rect class="fnkey" x="610" y="292.75" width="50" height="50" rx="5"/><text class="fnkey-t" x="616" y="308.75">Fn</text>
+<g class="dim"><rect class="cap" x="664" y="292.75" width="50" height="50" rx="5"/><text class="base" x="670" y="308.75">Ctrl</text>
+</g>
+<g><rect class="cap" x="724.75" y="299.5" width="50" height="50" rx="5"/><text class="base" x="730.75" y="315.5">←</text>
+<rect class="bar-light" x="724.75" y="345.5" width="50" height="4" rx="2"/><text class="fn light" x="730.75" y="339.5">◀ Effect</text>
+</g>
+<g><rect class="cap" x="778.75" y="299.5" width="50" height="50" rx="5"/><text class="base" x="784.75" y="315.5">↓</text>
+<rect class="bar-light" x="778.75" y="345.5" width="50" height="4" rx="2"/><text class="fn light" x="784.75" y="339.5">Bright −</text>
+</g>
+<g><rect class="cap" x="832.75" y="299.5" width="50" height="50" rx="5"/><text class="base" x="838.75" y="315.5">→</text>
+<rect class="bar-light" x="832.75" y="345.5" width="50" height="4" rx="2"/><text class="fn light" x="838.75" y="339.5">Effect ▶</text>
+</g>
+<g class="dim"><rect class="cap" x="893.5" y="292.75" width="50" height="50" rx="5"/><text class="base" x="899.5" y="308.75">0</text>
+</g>
+<g class="dim"><rect class="cap" x="947.5" y="292.75" width="50" height="50" rx="5"/><text class="base" x="953.5" y="308.75">.</text>
+</g>
+</svg>
